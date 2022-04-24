@@ -13,5 +13,17 @@
 
 #button{
     font-family: 'Nunito', sans-serif;
-    font-weight: bold;
+    display: flex;
+}
+
+.connect{
+    margin-left: 10px;
+}
+
+.userWallet{
+    margin-left: 10px;
+}
+
+.logo-metamask{
+    width: 22px;
 }

@@ -24,14 +24,19 @@ const Navigation = ({getUserWallet, wallet}) => {
                 <Nav.Link id="link" href="#" className="text-light">
                     DESCUBRE TODOS LOS NFT
                 </Nav.Link>
-                <button id="button" type="button" class="btn btn-outline-light">
-                    <img
-                        src={metamaskIcon}
-                        width="24"
-                        height="24"
-                        className="d-inline-block align-top"
-                    />{' '}
-                CONECTARSE A LA CARTERA</button>
+                <div
+                  onClick={() => getUserWallet()}
+                  className="btn btn-outline-light" id="button"
+                >
+                  <div>
+                    <img className="logo-metamask" src={metamaskIcon}></img>
+                  </div>
+                  {wallet ? (
+                    <span className="userWallet"> {wallet}</span>
+                  ) : (
+                    <span className="connect">CONECTAR CARTERA</span>
+                  )}
+                </div>
             </Navbar.Collapse>
         </Container>
     </Navbar>
