@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@200&display=swap');
+
+#logo{
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    font-size: xx-large ;
+}
+
+#link{
+    font-family: 'Nunito', sans-serif;
+}
+
+#button{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+}
+
+.connect{
+    margin-left: 10px;
+}
+
+.userWallet{
+    margin-left: 10px;
+}
+
+.logo-metamask{
+    width: 22px;
+}
