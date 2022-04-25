@@ -1,7 +1,8 @@
 
 import { useEffect, useState } from "react";
 import './App.css';
-import Navigation from './Navbar/Navbar.js';
+import Navigation from './Navbar/Navbar';
+import Home from "./Pages/Home/Home";
  
 function App() {
 
@@ -87,6 +88,7 @@ function App() {
     <div>
       <>
         <Navigation getUserWallet={getUserWallet} wallet={wallet}/>
+        <Home/>
       </>
     </div>
   );
