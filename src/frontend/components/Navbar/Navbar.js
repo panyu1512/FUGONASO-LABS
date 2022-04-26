@@ -8,7 +8,7 @@ import metamaskIcon from "../../assets/images/metamask.png";
 
 const Navigation = ({getUserWallet, wallet}) => {
   return (
-    <Navbar expand="lg" bg="dark">
+    <Navbar expand="lg" fixed="top" className='Navbar'>
         <Container>
             <Navbar.Brand href="#home">
                 <a id="logo" className="text-light">FUGONASO LABS</a>
