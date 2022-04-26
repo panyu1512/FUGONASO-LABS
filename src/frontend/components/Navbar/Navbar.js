@@ -11,7 +11,7 @@ const Navigation = ({getUserWallet, wallet}) => {
     <Navbar expand="lg" fixed="top" className='Navbar'>
         <Container>
             <Navbar.Brand href="#home">
-                <a id="logo" className="text-light">FUGONASO LABS</a>
+                FUGONASO LABS
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">

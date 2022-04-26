@@ -28,6 +28,7 @@ function App() {
 
   const getUserWallet = async (e) => {
     const ethereum = window.ethereum;
+    console.log(ethereum)
     if (ethereum) {
       try {
         const eth = await ethereum.request({ method: "eth_requestAccounts" });
